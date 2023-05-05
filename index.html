@@ -12,7 +12,8 @@
   </head>
 
   <body>
-    <script src="./js/modal.js"></script>
+   
+    
     <!-- ENCABEZADO -->
     <header class="container nav-container">
       <!-- nav -->
@@ -51,15 +52,24 @@
     <main>
 
       <!-- backdrop -->
-      <section class="backdrop">
+      <section class="backdrop is-hidde" data-modal>
+        <div class="modal">
+          <form action="" >
 
+          </form>
+          <button class="circle-close" type="button" data-modal-close>  
+            <svg class="close">
+                <use href="./images/SVG/sprite.svg#close"></use>
+            </svg>
+          </button>
+        </div>
       </section>
 
       <!-- TITULO PRINCIPAL -->
       <section>
         <div class="main-requeriment">
           <h1 class="container main-h1">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-          <button class="main-button" type="button">
+          <button class="main-button" type="button" data-modal-open>
             Solicite nuestro servicio
           </button>
         </div>
@@ -504,5 +514,7 @@
         </aside>
       </div>
     </footer>
+
+     <script src="./js/modal.js"></script>
   </body>
 </html>
