@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-      /* declaracion de variables */
+/* declaracion de variables */
 :root {
   --primary-title-color: #212121;
   --primary-white-color: #ffffff;
@@ -57,7 +57,6 @@ ul{
   height: 80px;
   align-items: center;
 }
-
 .Web-logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
@@ -75,16 +74,14 @@ ul{
   margin-left: 50px;
   margin-top: 4px;
 }
-
 header nav .current::after{
   position: absolute;
   content: '';
   border-bottom: 4px solid rgba(33, 150, 243, 1);;
   border-radius: 2px;
   width: 100%;
-  bottom: -32px;
+  bottom: -30px;
 }
-
 .link-header.current,
 .link-header:hover,
 .link-header:focus{
@@ -92,6 +89,7 @@ header nav .current::after{
 }
 
 /* contacto del header */
+
 .contact-header{
   display: flex;
   padding: 20px;
