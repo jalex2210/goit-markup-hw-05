@@ -66,6 +66,7 @@ ul{
   line-height: 1.2;
 }
 .link-header{
+  position: relative;
   display: flex;
   font-weight: 500;
   line-height: 16px;
@@ -74,17 +75,20 @@ ul{
   margin-left: 50px;
   margin-top: 4px;
 }
-.link-header.current{
-  color: var(--accent-color);
-  border-bottom: 3px solid;
-  
-  
+
+header nav .current::after{
+  position: absolute;
+  content: '';
+  border-bottom: 4px solid rgba(33, 150, 243, 1);;
+  border-radius: 2px;
+  width: 100%;
+  bottom: -32px;
 }
 
+.link-header.current,
 .link-header:hover,
 .link-header:focus{
   color: var(--accent-color);
-
 }
 
 /* contacto del header */
@@ -534,8 +538,7 @@ height: 1880px;
   position: absolute;
   top: 0;
   left: 0;
-  transform: translateY(100%);
-
+  
   background-color: rgba(33, 149, 243, 0.9);
   color: var(--primary-white-color);
   
@@ -544,8 +547,10 @@ height: 1880px;
   height: 100%;
   font-size: 18px;
   line-height: 28px;
-
+  
+  transform: translateY(100%);
   transition: transform ease-in 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-card:hover .frame .overlay{
   transform: translateY( 0%);
