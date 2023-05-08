@@ -339,8 +339,8 @@ header{
 }
 .social-networks{
   display: flex;
-  margin: 16px 32px 30px;
-  gap: 10px;
+  margin: 16px 32px 32px;
+  justify-content: space-between;
 }
 .icon-circle {
   background-color: var(--primary-white-color);
@@ -348,11 +348,9 @@ header{
   height: 44px;
   border-radius: 25px;
   border: none;
-  text-align: center;
-  padding: 12px;
   cursor: pointer;
-  align-items: center;
   fill: var(--icon-color);
+  padding: 12px;
 }
 .icon-social-media{
   height: 20px;
@@ -426,10 +424,6 @@ color: var(--primary-white-color);
 .items-socialmedia{
   display: flex;
   margin-left: 60px;
-  gap: 10px;
-}
-.link-icon-footer{
-  display: flex;
   gap: 10px;
 }
 .icon-circle-footer{
