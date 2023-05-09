@@ -227,38 +227,36 @@ header{
 .benefits {
   display: flex;
   padding-top: 82px;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  gap: 40px;
 }
 .benefits-column {
-  width: 270px;
+  flex-basis: calc((100% - 90px)/4);
 }
 .icon-benefits {
   display: flex;
   width: 270px;
-  padding: 25px 0;
+  padding: 25px;
+  margin-bottom: 30px;
   fill: var(--primary-title-color);
   border-radius: 4px;
   border: none;
-  margin: 94px 0 30px;
-  align-items: center;
   background-color: var(--background-gray);
 }
 .icon-svg-benefit {
   height: 70px;
-}
-.benefits-paragraph {
-  color: var(--primary-text-color);
-  display: block;
-  line-height: 1.71;
 }
 .title-h3 {
   color: var(--primary-title-color);
   font-weight: 700;
   line-height: 1.142;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
-
+.benefits-paragraph {
+  color: var(--primary-text-color);
+  line-height: 1.71;
+}
 /* A QUE NOS DEDICAMOS */
 
 .title-h2{
@@ -273,23 +271,19 @@ header{
 .what-do-box {
   display: flex;
   padding-bottom: 94px;
-  gap: 30px;
-  justify-content: center;
+  justify-content: space-between;
 }
 .image-whatdo1 {
-  width:373px;
-  height:294px;
   background-image:url(../images/image1.jpeg);
+  flex-basis: calc((100% - 90px)/3)
 }
 .image-whatdo2 {
-  width: 373px;
-  height: 294px;
   background-image: url(../images/image2.jpeg);
+  flex-basis: calc((100% - 90px)/3)
 }
 .image-whatdo3 {
-  width: 373px;
-  height: 294px;
   background-image: url(../images/image3.jpeg);
+  flex-basis: calc((100% - 90px)/3)
 }
 .box-what-do {
   display:flex;
@@ -311,16 +305,17 @@ header{
 }
 .members{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-bottom: 94px;
   gap: 30px;
 }
 .card-member{
   background-color: var(--primary-white-color);
   border-radius: opx opx 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  box-sizing: border-box;
-  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+              0px 1px 1px rgba(0, 0, 0, 0.14), 
+              0px 2px 1px rgba(0, 0, 0, 0.2);
+  
   text-align: center;
 }
 .name {
@@ -335,7 +330,6 @@ header{
 .profession{
   color: var(--primary-text-color);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.187; 
 }
 .social-networks{
