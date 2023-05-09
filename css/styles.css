@@ -52,7 +52,6 @@ ul{
   display: flex;
   padding: 24px 0 25px;
   justify-content: space-between;
-  
   align-items: center;
 }
 .Web-logo {
@@ -61,6 +60,7 @@ ul{
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
+  margin-right: 93px;
 }
 .link-header{
   position: relative;
@@ -69,7 +69,7 @@ ul{
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: var(--primary-title-color);
-  margin-left: 50px;
+  margin-right: 50px;
 }
 header nav .current::after{
   position: absolute;
@@ -183,7 +183,7 @@ header{
 /*  TITULO PRINCIPAL */
 
 .main-requeriment {
-  padding: 270px 0;
+  padding: 207px 0 182px;
   background-color: var(--background-black);
   background-image: 
     linear-gradient(rgba(47, 48, 58, 0.4),
@@ -194,7 +194,6 @@ header{
 .container.hero{
   text-align: center;
   width: 696px;
-
 }
 .main-h1 {
   color: var(--primary-white-color);
@@ -214,7 +213,7 @@ header{
   line-height: 1.9;
   cursor: pointer;
   margin-top: 30px;
-  padding: 0 32px;
+  
 }
 .main-button:hover,
 .main-button:focus {
@@ -226,6 +225,7 @@ header{
 
 .benefits {
   display: flex;
+  padding-bottom: 99px;
   padding-top: 82px;
   justify-content: space-between;
   gap: 40px;
@@ -264,8 +264,8 @@ header{
   font-size: 36px;
   font-weight: 700;
   line-height: 1.166;
-  padding-bottom: 50px;
-  padding-top: 94px;
+  margin-bottom: 50px;
+
   text-align: center;
 }
 .what-do-box {
@@ -302,11 +302,12 @@ header{
 
 .our-team{
   background-color: var(--background-gray);
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .members{
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
   gap: 30px;
 }
 .card-member{
@@ -360,9 +361,12 @@ header{
 
 /* CLIENTES REGULARES */
 
+.custumer{
+  padding-bottom: 151px;
+  padding-top: 59px;
+}
 .regular-customers{
   display: flex;
-  margin-bottom: 151px;
   justify-content: space-between;
 }
 .button-customer{
@@ -398,7 +402,7 @@ header{
 }
 .address{
   width: 180px;
-  padding-top: 9px;
+  margin-top: 9px;
 }
 .link-contact{
   color: var(--text-white-opacy);
@@ -413,6 +417,7 @@ color: var(--primary-white-color);
 /* redes sociales */
 .title-social {
   color: var(--primary-white-color);
+  padding-top: 12px;
   margin-bottom: 20px;
   margin-left: 70px;
 }
