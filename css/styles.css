@@ -62,6 +62,9 @@ ul{
   line-height: 1.2;
   margin-right: 93px;
 }
+.logo-index{
+  color: var(--primary-white-color);
+}
 .link-header{
   position: relative;
   display: flex;
@@ -453,8 +456,7 @@ color: var(--primary-white-color);
 
 
 .portfolio-page{
-  width: 1170px;
-  margin-bottom: 82px
+  padding-bottom: 82px
 }
 
 /* botones */
