@@ -460,7 +460,7 @@ color: var(--primary-white-color);
 /* botones */
 .filter {
   display: flex;
-  margin-top: 106px;
+  padding-top: 95px;
   padding-bottom: 56px;
   justify-content: center;
   gap: 8px;
@@ -488,7 +488,6 @@ color: var(--primary-white-color);
 
 .mosaic{
   display: flex;
-  padding-bottom: 30px;
   flex-wrap: wrap;
   gap: 30px;
 }
@@ -496,7 +495,6 @@ color: var(--primary-white-color);
   background: var(--primary-white-color);
   border: 1px solid #EEEEEE;
   width: 370px;
-  height: 404px;
 }
 .link-card:focus,
 .link-card:hover{
@@ -536,16 +534,16 @@ color: var(--primary-white-color);
     line-height: 1.33;
     letter-spacing: 0.06em;
     color: var(--primary-title-color);
-    padding-left: 24px;
+    margin-left: 24px;
     text-align: left;
-    padding-top: 20px;
-    padding-bottom: 4px;
+    margin-top: 20px;
+    margin-bottom: 4px;
     width: 370px;
 }
 .description {
     color: #757575;
     line-height: 2.14;
     text-align: left;
-    padding-left: 24px;
+    margin-left: 24px;
 }
 
